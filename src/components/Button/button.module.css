@@ -1,0 +1,52 @@
+.btn {
+  padding: 10px !important;
+  border-radius: 5px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  border: none !important;
+  outline: none !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  color: black !important;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: var(--primary) !important;
+  color: var(--white) !important;
+}
+.btn-primary:hover {
+  opacity: 0.9 !important;
+}
+
+/* Primary Button Outline */
+.btn-primary-outline {
+  background-color: transparent !important;
+  border: 1px solid var(--primary) !important;
+  color: var(--primary) !important;
+}
+.btn-primary-outline:hover {
+  background-color: var(--primary) !important;
+  color: var(--white) !important;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: var(--secondary) !important;
+  color: var(--white) !important;
+}
+.btn-secondary:hover {
+  background-color: var(--secondary-light) !important;
+}
+
+/* Secondary Button Outline */
+.btn-secondary-outline {
+  background-color: transparent !important;
+  border: 1px solid var(--secondary) !important;
+  color: var(--secondary) !important;
+}
+.btn-secondary-outline:hover {
+  background-color: var(--secondary) !important;
+  color: var(--white) !important;
+}
